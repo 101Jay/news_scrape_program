@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# if__name__ == "__main__": 을 이용하여 각 파일 모두 함수로 정의하고 쓸 수도 있음
+
 url = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%9D%B8%EC%B2%9C+%EB%82%A0%EC%94%A8'
 res = requests.get(url)
 res.raise_for_status()

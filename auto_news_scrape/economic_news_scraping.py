@@ -22,3 +22,4 @@ for i in range(5) :
     print("{0}번째 신문 : {1}\n".format(i+1, news_title[ran_num]['href']))
     before_num = ran_num
 
+

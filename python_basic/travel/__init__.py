@@ -1,1 +1,0 @@
-__all__ = ["vietnam", "thailand"] #import * 시 공개 범위 지정.
